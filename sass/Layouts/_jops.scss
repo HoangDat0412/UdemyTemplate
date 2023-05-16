@@ -1,0 +1,21 @@
+.jops{
+    background-color: $color-gray-6;
+    .jops__content{
+        .row{
+            padding: $pd-0 0;
+        }
+        .jops__item{
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            padding: $pd-3;
+            h2{
+                @include styleText($color-black-light,$fs-3 + 1, $fw-1)
+            }
+            p{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    
+}

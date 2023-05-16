@@ -1,0 +1,13 @@
+.darkMode{
+    .jops{
+        background-color: $color-dark-6;
+        .jops__content{
+            .jops__item{
+                h2{
+                   color: $color-dark-5;
+                }
+            }
+        }
+        
+    }
+}
